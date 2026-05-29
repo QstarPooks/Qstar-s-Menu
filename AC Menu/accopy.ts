@@ -138,6 +138,7 @@ export default {
 
 // ── Wire the correct export names into the bridge ─────────────────────────────
 
+
 Il2Cpp.$config.exports = {
 	il2cpp_init: () => Il2Cpp.module.findExportByName("diSBvpqCEPZ"),
 	il2cpp_init_utf16: () => Il2Cpp.module.findExportByName("sdEQgFfKKlG"),
@@ -374,7 +375,6 @@ Il2Cpp.$config.exports = {
 	il2cpp_set_default_thread_affinity: () => Il2Cpp.module.findExportByName("SIlVAbQPufC"),
 	il2cpp_unity_set_android_network_up_state_func: () => Il2Cpp.module.findExportByName("IWuecfkKxEm"),
 };
-
 // ── Config ────────────────────────────────────────────────────────────────────
 const version        = "1.0.0";
 const menuName       = "Qstar's Spawn Pad";
